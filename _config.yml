@@ -12,16 +12,15 @@ description: "Great web agency offers high impact yet affordable web development
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://username.github.io/project/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username: jekyll
 
 # Build settings
 markdown: kramdown
 
 permalink: none
-comments: true 
+comments: true
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
